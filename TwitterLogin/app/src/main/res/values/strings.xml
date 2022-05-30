@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Twitter Login</string>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Change the following strings as required -->
+    <string name="back4app_app_id">gqsWTbyTFL34boX5dphiULPp7mmn8yJ42kshZ14s</string>
+    <string name="back4app_client_key">I9Na9auAP5xJaxUhEhfDJsNMlkmV78G6FaTVfAeI</string>
+
+    <string name="twitter_consumer_key">jfHy5cx8gnp4NA3vLRWgoXpIr</string>
+    <string name="twitter_consumer_secret">f3O272IfGixberQ51eqdkXxuGAFg562QHE72B9Dct3NlZzFZo1</string>
+
+
+</resources>

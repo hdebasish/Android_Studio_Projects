@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Uber</string>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Change the following strings as required -->
+    <string name="back4app_app_id">WWLnA8vF0ngLX3mTb0gStHu7gVo4BCnVvvXVGfwW</string>
+    <string name="back4app_client_key">I1peVYDfY5t90ZJaMw87PxATGfDLoGgeIjxU7TTz</string>
+    <string name="rider">Rider</string>
+    <string name="driver">Driver</string>
+    <string name="get_started">Get started</string>
+    <string name="title_activity_rider">Map</string>
+    <string name="call_uber">Call Uber</string>
+    <string name="cancel_uber">Cancel Uber</string>
+    <string name="logout">Logout</string>
+    <string name="my_location">My Location</string>
+    <string name="mark_location">Mark Location</string>
+    <string name="title_activity_driver">Map</string>
+    <string name="accept_request">Accept Request</string>
+</resources>

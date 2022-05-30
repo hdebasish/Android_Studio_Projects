@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">VerifyEmail</string>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Change the following strings as required -->
+    <string name="back4app_app_id">Z4nNKvX8cr2a3JUgV4meYLPsFM5sYsIMp7teJWFQ</string>
+    <string name="back4app_client_key">9KZewn85ukGhk7zSrS78mtCJR6hk43WI5Tculkug</string>
+    <string name="enter_a_username">Enter a username</string>
+    <string name="enter_an_email_id">Enter an email id</string>
+    <string name="enter_a_password">Enter a password</string>
+    <string name="sign_up_button">Sign Up</string>
+    <string name="enter_username">Enter username</string>
+    <string name="enter_password">Enter password</string>
+    <string name="login_button">Login</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign Up</string>
+
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Vision Board</string>
+    <string name="image_view">Image View</string>
+    <string name="add">Add</string>
+    <string name="overview">Overview</string>
+    <string name="board_name">Board Name</string>
+    <string name="description">Description</string>
+    <string name="add_desc">Description</string>
+    <string name="add_image">Add Image</string>
+    <string name="save_board">Save Board</string>
+    <string name="success">Success</string>
+    <string name="failure">Insert Failed</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/usernameEditTextLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:hint="@string/enter_username"/>
+    <EditText
+        android:id="@+id/passwordEditTextLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usernameEditTextLogin"
+        android:layout_marginTop="30dp"
+        android:inputType="textPassword"
+        android:hint="@string/enter_password"/>
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordEditTextLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/login"/>
+
+    <TextView
+        android:id="@+id/textViewLogin1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonLogin"
+        android:text="@string/don_t_have_an_account"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:id="@+id/textViewLogin2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewLogin1"
+        android:layout_centerHorizontal="true"
+        android:text="@string/sign_up"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textColor="@color/design_default_color_primary_dark"/>
+
+
+</RelativeLayout>

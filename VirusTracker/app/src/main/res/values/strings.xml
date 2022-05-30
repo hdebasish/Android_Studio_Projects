@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">VirusTracker</string>
+    <string name="title">Covid-19 Global Stats</string>
+    <string name="textview">TextView</string>
+    <string name="cases">Total Cases: %,d</string>
+    <string name="todayCases">New Cases: %,d"</string>
+    <string name="deaths">Total Deaths: %,d"</string>
+    <string name="todayDeaths">New Deaths: %,d"</string>
+    <string name="recovered">Total Recovered: %,d"</string>
+    <string name="active">Active Cases: %,d"</string>
+    <string name="critical">Serious Critical: %,d"</string>
+    <string name="loading">Loading...</string>
+    <string name="appwidget_text">Covid-19 Stats</string>
+    <string name="add_widget">Add widget</string>
+    <string name="refresh">Refresh</string>
+</resources>

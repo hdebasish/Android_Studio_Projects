@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WhatsApp</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign Up</string>
+
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Change the following strings as required -->
+    <string name="back4app_app_id">yw5my1rgin0TLMIyCqSTSyYMXL8s1EDjM9PBu7LS</string>
+    <string name="back4app_client_key">aaMiEs2W6OsO65KsgaitYDZDQz1JjtcHJ0RuJCsC</string>
+</resources>
