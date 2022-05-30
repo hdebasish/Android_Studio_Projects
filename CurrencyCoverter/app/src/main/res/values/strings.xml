@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CurrencyCoverter</string>
+    <string name="enter_the_amount">ENTER THE AMOUNT</string>
+    <string name="rupees_to_dollar">RUPEES TO DOLLAR</string>
+    <string name="currency_converter">CURRENCY CONVERTER</string>
+    <string name="dollar_to_rupees">DOLLAR TO RUPEES</string>
+</resources>

@@ -1,0 +1,2 @@
+rootProject.name = "My Job Scheduler"
+include ':app'

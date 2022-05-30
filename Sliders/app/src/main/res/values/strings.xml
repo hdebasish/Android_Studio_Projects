@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sliders</string>
+    <string name="app_compat_seekbar">App Compat SeekBar :</string>
+    <string name="_0">0</string>
+    <string name="range_bar">Range Bar 1:</string>
+    <string name="range_bar_2">Range Bar 2:</string>
+</resources>

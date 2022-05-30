@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Parks</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="map">Map</string>
+    <string name="parks">Parks</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="description">Description</string>
+    <string name="textview">TextView</string>
+    <string name="activities">Activities</string>
+    <string name="topics">Topics</string>
+    <string name="entrance_fees">Entrance Fees</string>
+    <string name="operating_hours">Operating Hours</string>
+    <string name="directions">Directions</string>
+    <string name="infonot">Info not available</string>
+    <string name="nodirection">Directions not available</string>
+    <string name="search_with_state_code">Search with state code...</string>
+    <string name="todo">TODO</string>
+</resources>

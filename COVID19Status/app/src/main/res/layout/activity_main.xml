@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/virus"
+    android:padding="16dp"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="@string/covid_19_coronavirus_pandemic"
+        android:textColor="@android:color/background_light"
+        android:textSize="25sp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="94dp"
+        android:ems="10"
+        android:completionThreshold="1"
+        android:hint="@string/enter_your_country"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_below="@id/button2"
+        android:layout_marginTop="30sp"
+        android:textColor="@android:color/background_light"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170sp"
+        android:background="@android:color/holo_blue_light"
+        android:onClick="world"
+        android:text="WORLD"
+        android:textColor="@android:color/background_light" />
+
+
+</RelativeLayout>

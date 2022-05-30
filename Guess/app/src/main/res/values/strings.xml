@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Guess</string>
+    <string name="type_a_any_number_between_1_20">Type a any number between 1 - 20</string>
+    <string name="check">CHECK</string>
+</resources>

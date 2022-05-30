@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Parse Starter Project</string>
+
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+    <string name="back4app_app_id">CYiQwHga5vIh8xbdtaMyeAIpjQ8Pqzg7p0bS736N</string>
+    <string name="back4app_client_key">3TUhfIiBxQ1HCUDYZrfsDmKmnwV256clNlbGdIBm</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="login">LOGIN</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="logout">LOGOUT</string>
+    <string name="logout_menu">Logout</string>
+    <string name="add_item_menu">Add item</string>
+    <string name="enter_email">Enter email</string>
+
+
+</resources>

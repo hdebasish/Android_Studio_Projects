@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/gradient_bg"
+    android:padding="18dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:text="@string/self_gratitude_journal"
+        android:textSize="30sp" />
+
+    <RelativeLayout
+        android:id="@+id/relative_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            app:cardElevation="6dp"
+            app:cardUseCompatPadding="true"
+            app:cardCornerRadius="8dp">
+            <TextView
+                android:id="@+id/grateful_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/what_are_you_grateful_for_today"
+                android:layout_gravity="center"
+                android:textSize="19sp"/>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/get_started"
+        android:background="@android:color/transparent"/>
+</LinearLayout>

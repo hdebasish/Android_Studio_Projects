@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+  <androidx.appcompat.widget.AppCompatButton
+      android:id="@+id/raised_button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="100dp"
+      style="@style/RaisedButton"
+      android:text="@string/raised_button" />
+
+  <androidx.appcompat.widget.AppCompatButton
+      android:id="@+id/flat_button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:layout_below="@id/raised_button"
+      android:layout_marginTop="100dp"
+      style="@style/FlatButton"
+      android:text="@string/flat_button" />
+
+
+  <com.google.android.material.floatingactionbutton.FloatingActionButton
+      android:id="@+id/floating_action_button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentBottom="true"
+      android:layout_margin="24dp"
+      android:src="@drawable/email"
+      app:elevation="8dp"
+      app:fabSize="normal"/>
+
+
+</RelativeLayout>

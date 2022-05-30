@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">COVID-19 Status</string>
+    <string name="covid_19_coronavirus_pandemic">COVID-19 CORONAVIRUS PANDEMIC</string>
+    <string name="enter_your_country">Enter your country</string>
+</resources>

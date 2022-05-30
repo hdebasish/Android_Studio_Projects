@@ -1,0 +1,2 @@
+rootProject.name='Hide UI'
+include ':app'

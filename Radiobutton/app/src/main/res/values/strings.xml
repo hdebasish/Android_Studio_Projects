@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Radio button</string>
+    <string name="radio_button">Radio button</string>
+    <string name="radio_button_1">Radio button 1</string>
+    <string name="radio_button_2">Radio button 2</string>
+    <string name="radio_button_3">Radio button 3</string>
+</resources>

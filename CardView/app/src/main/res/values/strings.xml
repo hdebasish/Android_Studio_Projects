@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Card View</string>
+    <string name="second_image">Second Image</string>
+    <string name="first_image">first image</string>
+</resources>

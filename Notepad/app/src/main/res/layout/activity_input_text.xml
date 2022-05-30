@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InputText">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:autofillHints=""
+        android:background="@null"
+        android:fontFamily="sans-serif-light"
+        android:gravity="start"
+        android:inputType="textMultiLine"
+        android:padding="10sp"
+        android:hint="@string/write_something"
+        android:textColor="@android:color/black"
+        android:textColorLink="@android:color/background_light" />
+</RelativeLayout>

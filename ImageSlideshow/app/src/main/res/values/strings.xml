@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ImageSlideshow</string>
+    <string name="slideshow_image_view">Slideshow image view</string>
+</resources>

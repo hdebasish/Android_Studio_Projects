@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Push Notification Back4App</string>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Change the following strings as required -->
+    <string name="back4app_app_id">97fF7GltFANi3RgiaF40s4jLWPsETMmZgUvkH1DD</string>
+    <string name="back4app_client_key">k4forBqQcPWCUUuplwFSmzR1RUK7GimCSGGqNkJy</string>
+</resources>

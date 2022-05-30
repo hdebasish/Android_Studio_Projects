@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Transient state</string>
+    <string name="increase">Increase</string>
+</resources>

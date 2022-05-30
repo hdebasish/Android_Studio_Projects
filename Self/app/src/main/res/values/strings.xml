@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Self</string>
+    <string name="self_gratitude_journal">Self. Gratitude. Journal</string>
+    <string name="what_are_you_grateful_for_today">What are you grateful for today?</string>
+    <string name="get_started">Get Started</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="or">Or</string>
+    <string name="create_account">Create Account</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="debasish">Debasish</string>
+    <string name="today">Today</string>
+    <string name="title">Title</string>
+    <string name="your_thoughts">Your thoughts</string>
+    <string name="save">Save</string>
+    <string name="image">Image</string>
+    <string name="gallery">Gallery</string>
+    <string name="add_thoughts">Add thoughts</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="no_thoughts_available">No thoughts available...</string>
+    <string name="share_button">Share Button</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/slideShowImageView"
+        android:src="@drawable/angrybirds"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/slideshow_image_view" />
+
+</LinearLayout>

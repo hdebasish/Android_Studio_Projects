@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Collapsing Toolbar</string>
+    <string name="text_1">Text 1</string>
+    <string name="text_2">Text 2</string>
+    <string name="text_3">Text 3</string>
+    <string name="text_4">Text 4</string>
+    <string name="text_5">Text 5</string>
+    <string name="text_6">Text 6</string>
+    <string name="text_7">Text 7</string>
+    <string name="text_8">Text 8</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cardView1"
+        app:contentPadding="12dp"
+        android:layout_margin="16dp"
+        app:cardBackgroundColor="@color/colorCardView"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="4dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/image1"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/first_image" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cardView2"
+        app:contentPadding="12dp"
+        android:layout_below="@id/cardView1"
+        android:layout_margin="16dp"
+        app:cardBackgroundColor="@color/colorCardView"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="4dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/image2"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/second_image" />
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>

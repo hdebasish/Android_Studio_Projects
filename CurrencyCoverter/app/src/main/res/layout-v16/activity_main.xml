@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="@string/currency_converter"
+        android:gravity="center"
+        android:adjustViewBounds="true"
+        android:fontFamily="sans-serif-condensed-medium"
+        tools:targetApi="jelly_bean" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_below="@id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="300sp"
+        android:src="@drawable/convert"
+        android:adjustViewBounds="true"
+        tools:ignore="ContentDescription" />
+    <EditText
+        android:id="@+id/editText"
+        android:layout_below="@id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:hint="@string/enter_the_amount"
+        tools:ignore="Autofill"
+        android:adjustViewBounds="true"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:onClick="rupeesDollar"
+        android:text="@string/rupees_to_dollar" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:onClick="dollarRupees"
+        android:text="@string/dollar_to_rupees" />
+</RelativeLayout>
+
+
+
+
+

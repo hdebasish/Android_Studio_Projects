@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Notes App</string>
+    <string name="add_notes">Add notes</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="priority">Priority:</string>
+    <string name="delete_all_notes">Delete all notes</string>
+</resources>

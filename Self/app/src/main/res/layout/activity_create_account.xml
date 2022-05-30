@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_bg"
+    android:gravity="center"
+    android:padding="16dp"
+    android:layout_height="match_parent"
+    tools:context=".CreateAccountActivity">
+    <ProgressBar
+        android:id="@+id/create_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleLarge"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/username_create"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/username"
+            android:background="@drawable/input_outline_signin_up"
+            android:padding="15dp"
+            android:maxLines="1"
+            android:importantForAutofill="no"
+            android:inputType="text" />
+
+        <AutoCompleteTextView
+            android:id="@+id/email_create"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:background="@drawable/input_outline_signin_up"
+            android:padding="15dp"
+            android:layout_marginTop="16dp"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"/>
+
+        <EditText
+            android:id="@+id/password_create"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="@string/password"
+            android:background="@drawable/input_outline_signin_up"
+            android:padding="15dp"
+            android:maxLines="1"
+            android:layout_marginTop="16dp"
+            android:importantForAutofill="no" />
+
+        <Button
+            android:id="@+id/create_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold"
+            android:text="@string/create_account"/>
+
+    </LinearLayout>
+
+</LinearLayout>

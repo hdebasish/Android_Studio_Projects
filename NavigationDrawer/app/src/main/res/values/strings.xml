@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Navigation Drawer</string>
+    <string name="debasish_halder">Debasish Halder</string>
+    <string name="hdebasish_gmail_com">hdebasish@gmail.com</string>
+    <string name="inbox">Inbox</string>
+    <string name="starred">Starred</string>
+    <string name="sent">Sent</string>
+    <string name="drafts">Drafts</string>
+    <string name="subheader">Subheader</string>
+    <string name="all_mail">All mail</string>
+    <string name="trash">Trash</string>
+    <string name="spam">Spam</string>
+    <string name="open_drawer">Open drawer</string>
+    <string name="close_drawer">Close drawer</string>
+</resources>

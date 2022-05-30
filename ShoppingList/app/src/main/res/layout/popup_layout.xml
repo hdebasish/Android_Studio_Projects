@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="24dp">
+            <TextView
+                android:id="@+id/title_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/enter_item_details"
+                android:layout_centerHorizontal="true"
+                android:textStyle="italic"
+                android:textSize="24sp"/>
+            <EditText
+                android:id="@+id/item_name_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_item_name"
+                android:layout_below="@id/title_textView"
+                android:layout_marginTop="16dp"
+                android:importantForAutofill="no"
+                android:inputType="text" />
+            <EditText
+                android:id="@+id/item_brand_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_item_brand"
+                android:layout_below="@id/item_name_editText"
+                android:layout_marginTop="8dp"
+                android:importantForAutofill="no"
+                android:inputType="text" />
+            <EditText
+                android:id="@+id/item_quality_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_item_quality"
+                android:layout_below="@id/item_brand_editText"
+                android:layout_marginTop="8dp"
+                android:importantForAutofill="no"
+                android:inputType="text" />
+            <EditText
+                android:id="@+id/item_quantity_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_item_quantity"
+                android:layout_below="@id/item_quality_editText"
+                android:layout_marginTop="8dp"
+                android:importantForAutofill="no"
+                android:inputType="text" />
+            <Button
+                android:id="@+id/save_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_below="@id/item_quantity_editText"
+                android:layout_centerHorizontal="true"
+                android:text="@string/save"/>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

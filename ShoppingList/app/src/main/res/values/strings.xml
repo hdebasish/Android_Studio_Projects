@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Shopping List</string>
+    <string name="fab">FAB</string>
+    <string name="enter_item_details">Add an item</string>
+    <string name="enter_item_name">Enter item name</string>
+    <string name="enter_item_brand">Enter item brand</string>
+    <string name="enter_item_quality">Enter item quality</string>
+    <string name="enter_item_quantity">Enter item quantity</string>
+    <string name="save">Save</string>
+    <string name="drop_table">DROP TABLE IF EXISTS</string>
+    <string name="item_removed">1 item removed</string>
+    <string name="undo">UNDO</string>
+    <string name="edit_item">Edit item</string>
+    <string name="item_text">Item:</string>
+    <string name="brand_text">Brand:</string>
+    <string name="quality_text">Qual:</string>
+    <string name="quantity_text">Quan:</string>
+</resources>

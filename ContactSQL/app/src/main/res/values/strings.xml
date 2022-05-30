@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ContactSQL</string>
+    <string name="drop_table">DROP TABLE IF EXISTS</string>
+    <string name="profile_photo">profile photo</string>
+</resources>

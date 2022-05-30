@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="100sp"
+        android:text="Guess the number"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:textSize="60sp"
+        tools:ignore="HardcodedText,UnusedAttribute" />
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:hint="@string/type_a_any_number_between_1_20"
+        android:inputType="number"
+        android:importantForAutofill="no" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText"
+        android:layout_centerHorizontal="true"
+        android:text="@string/check"
+        android:onClick="buttonPressed"
+
+        />
+
+
+
+
+
+</RelativeLayout>
